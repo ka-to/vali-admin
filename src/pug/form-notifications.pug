@@ -72,7 +72,7 @@ block specific-js
 					cancelButton: 'btn'
 				},
 				confirmButtonText: 'Yes, delete it!'
-			}).then((result) => {
+			}).then(function(result){
 				if (result.value) {
 					Swal.fire(
 					'Deleted!',
